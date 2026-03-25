@@ -1,1 +1,5 @@
-# Python-code-
+# Python-code-student = {"name": "John", "marks": 75}
+print("Before Update:", student)
+student["marks"] = int(input("Enter new marks: "))
+student["name"] = input("Enter new name: ")
+print("After Update:", student)
